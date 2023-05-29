@@ -1,0 +1,39 @@
+  
+pagina home
+verset 
+o que é a poesia 
+
+
+
+aperta ok é direcionado para outra pagina 
+
+nessa pagina que ele é diorecionado terão fotos de poetas 
+que quando clica na imagem abre um poema de um
+poeta sem sair da pagina clicou na foto 
+apareceu poema e ele pode da estrelas
+sobre o que achou desses poemas 
+
+deixe sua poesia no nosso site e receba avaliações
+
+
+
+
+
+fieldset class="fiel">
+         <div class="c1">
+             <p class="text">Poesia
+                <br>
+                vem do termo latim poēsis, que, por sua vez, deriva de um conceito grego.
+                substantivo feminino.
+                1.
+                LITERATURA
+                arte de compor ou escrever versos.
+                2.
+                LITERATURA
+                composição em versos (livres e/ou providos de rima), ger. com associações harmoniosas de palavras, ritmos e imagens.
+                fonte:<a href="https://www.google.com/search?q=significado+de+poesia&rlz=1C1GCEU_pt-BRBR1046BR1046&oq=significado+de+poesia&aqs=chrome..69i57j0i512l3j0i22i30l5j0i15i22i30.9101j1j7&sourceid=chrome&ie=UTF-8">google</a>
+            <br>
+      
+    </p>
+         </div>
+        </fieldset>

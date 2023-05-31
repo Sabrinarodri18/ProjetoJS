@@ -1,0 +1,211 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 100%;
+  min-height: 100%;
+  background-color: rgb(242, 236, 232);
+}
+
+header {
+  text-align: center;
+  background-color: rgb(61, 29, 29);
+  color: white;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  color: rgb(225, 207, 196);
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+a:focus {
+  outline: 5px solid rgb(219, 155, 112);
+  background-color: rgb(219, 155, 112);
+  border-radius: 1px;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: rgb(29, 1, 1);
+  color: white;
+  text-align: center;
+}
+section {
+  display: flex;
+ justify-content: center;
+}
+
+h1{
+  text-align: center;
+  margin-top: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(29,1, 1);
+}
+
+h2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(29, 1, 1);
+  justify-content: center;
+  display:flex ;
+  margin-top: 50px;
+}
+
+.flip-card {
+  max-width: 400px;
+  flex: 1;
+  height: 400px;
+  perspective: 500px;
+  margin: 10px;
+}
+
+.flip-iner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-iner {
+  transform: rotateY(180deg);
+}
+
+.front,
+.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.front img {
+  width: 100%;
+  height: 100%;
+}
+
+.back {
+  color:rgb(29, 1, 1);
+  background-color: rgb(219, 155, 112);
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pp{
+  text-decoration: underline;
+
+}
+
+.poema{
+  font-family:'sans-serif';
+}
+
+#preview {
+  margin-top: 10px;
+  padding: 15px;
+  border: 1px solid #000000;
+  border-radius: 6px;
+
+}
+#botão {
+  padding: 10px 20px;
+  background-color:  rgb(171, 113, 74);
+  color: rgb(29,1, 1);
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 10px;
+  transition: duration 0.5s;
+}
+#botão:hover{
+  color: rgb(63, 25, 0);
+}
+
+textarea{
+  background-color: rgb(236, 231, 228);
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgb(29, 1, 1); /*adiciona uma sombra ao redor de um elemento HTML. */
+  box-align: center;
+  display: block;
+  margin-top: 35px;
+  font-size: 20px;
+  font-family: 'Poppins';
+  margin-right: 55px;
+  width:447px;
+  height: 225px;
+ }
+
+fieldset{
+  border: none;
+  background-color: rgb(232, 198, 176);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  overflow-x:auto;
+  width: 1155px;
+}
+
+h3{
+  font-size: 18px;
+}
+
+#mensagem{
+  font-size: 20px;
+  margin-top: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+textarea {
+  height: 180px;
+  resize: none;
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+}
+

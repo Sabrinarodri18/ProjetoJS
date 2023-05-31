@@ -1,0 +1,9 @@
+ 
+
+nessa pagina que ele é diorecionado terão fotos de poetas 
+que quando passa o mouse sobre a imagem o card vira e mostra um poema do
+poeta e uma breve descrição sobre ele
+
+
+deixe sua poesia no nosso site 
+

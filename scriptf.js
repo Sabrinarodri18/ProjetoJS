@@ -27,7 +27,7 @@
       setInterval(function() {
         currentIndex = (currentIndex + 1) % carouselItems.length;
         carouselSlide.style.transform = 'translateX(' + (-itemWidth * currentIndex) + 'px)';
-      }, 5000);
+      }, 2000);
     }
 
     // Chamar a função para iniciar o carrossel

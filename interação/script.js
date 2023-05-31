@@ -67,10 +67,5 @@ document.addEventListener('DOMContentLoaded', function() {  //carregar o event l
        const stars = poema.querySelectorAll('.rating input[type="radio"]');
        const classificacao = poema.querySelector('p');
      
-       stars.forEach(star => {
-         star.addEventListener("change", function() {
-           const value = this.value;
-           classificacao.textContent = value + "/3";
-         });
        });
      });

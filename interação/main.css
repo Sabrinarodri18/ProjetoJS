@@ -1,0 +1,166 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  header {
+    text-align: center;
+    background-color:    rgb(61, 29, 29);;
+    color: white;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 35px;
+  }
+  
+  
+  header nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  
+  a:focus {  
+    outline: 5px solid rgb(219, 155, 112);
+  background-color:rgb(219, 155, 112);
+  border-radius: 1px; }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color:rgb(29, 1, 1);
+    color: white;
+    text-align: center;
+  }
+  
+  
+  h1{
+    text-align: center;
+    font-size: 35px ;
+  }
+  .poem{
+    margin-left: 370px;
+   width: 600px;
+   height: 200px;
+   font-family: 'Poppins', sans-serif;
+   font-size: 20px;
+   text-align: center;
+   margin-top: 40px;
+ 
+  }
+
+
+
+  #caixa{
+    display:block ;
+    margin-top: 15px;
+    height: 156px;
+    width: 335px;
+    font-size: 15px;
+    margin-left: 25px;
+    border-radius: 5px;
+  }
+
+  
+  
+
+  .text {
+    background-color: rgb(231, 201, 181);
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(29, 1, 1); /*adiciona uma sombra ao redor de um elemento HTML. */
+    display: block;
+    margin-top: 35px;
+    font-size: 20px;
+    font-family: 'Poppins', 
+  }
+
+
+
+  .text textarea {
+    width: 100%;
+    height: 150px;
+    resize: vertical;
+    padding: 10px;
+    border: 1px solid rgb(61, 29, 29);
+    border-radius: 5px;
+  }
+
+  .text button {
+    margin-top: 10px;
+    background-color:  rgb(171, 113, 74);
+  color: rgb(29,1, 1);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .text button:hover {
+    color: rgb(63, 25, 0);
+  }
+
+  h2{
+    text-align: center;
+  }
+
+ #result{
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: transparent;
+  font-weight: bold;
+  width: 350px;
+}
+
+.div{
+  margin-top: 50px;
+}
+
+#textarea{
+  resize:none;
+  width: 500px;
+ margin-right: 90px;
+ height: 100px;
+}
+
+.rating {
+	font-size: 35px;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+
+}
+
+.rating input {
+	display: none;
+}
+
+.rating label {
+    cursor: pointer;
+    float: right;
+}
+
+.rating > label:before {
+	content: "\2605";	
+}
+
+.rating input:checked ~ label,
+.rating input:checked ~ label ~ label {
+    color:yellow;
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interação</title>
+</head>
+<body>
+
+    <script src="./script.js"> </script>
+    <link rel="stylesheet" type="text/css" href="./main.css">
+
+
+    <header> 
+        <h1>Verset</h1>
+    <div>
+     <nav>
+        <ul>
+            <li><a href="../Carrossel/indexf.html" class="nav">Home</a></li>
+
+            <li><a href="../poetas/index.html" class="nav">Poetas</a></li>
+
+            <li><a href="../Carrossel/origem.html" class="nav">Origem</a></li>
+
+            <li><a href="./index.html" class="nav">Game</a></li>
+            <li><a href="../ProjetoJS-main/contato.html" class="nav">Contato</a></li>
+        </ul>
+    </nav>
+    </div>
+  
+</header>
+
+ <main> 
+<h1>O que é a poesia?</h1>   
+
+<div class="poem">
+<P>A poesia é transmitida pelas emoções, ela é a essencia da vida, é a capacidade de expressarmos nossas emoções por meio da caneta e do lapis. Eu gosto muito de uma frase que diz: "namore um poeta e você sera eternizado para sempre", porque isso resume o que é ser um poeta, o poeta transforma as emoções em arte, escrevendo na folha o que nem sempre ele consegue expressar verbalmente. Qualquer emoção que o poeta sentir seja amor, ódio ou medo ele vai transformar todas essas emoções em uma bela arte, que em algum momento da vida alguem pode se identificar. 
+</P>
+</div>
+<br><br>
+
+
+<div class="text">
+    
+    <h2>Agora vamos fazer uma brincadeira</h2>
+
+<p> Se você chegou até aqui acredito que goste de poesia e seja uma pessoa criativa,
+então vamos lá.</p>
+
+     <p> desenvolva um poema criativo e original utilizando uma, duas ou quantas palavras você desejar, mas com uma condição: o poema precisa incluir pelo menos uma das seguintes palavras:  </p>
+
+    
+    
+     
+<ul id="palavras">
+ <li>Amor</li>
+ <li>Mar</li>
+ <li>Lealdade</li>
+ <li>Contente</li>
+ <li>Luz</li>
+ <li>Flores</li>
+ <li>Emoção</li>
+</ul>
+     
+
+<p id="Input">Digite o poema:</p>
+
+<button id="botao">Criar poema</button>
+<div id="section"></div>
+
+
+<br>
+<button onclick="checkPoem()">Verificar</button>
+<p id="result"></p>
+
+
+
+
+  
+    <div class="div">
+    <h3>Avalie o poema de outras pessoas que também nos enviaram e incentive um autor.</h3>
+
+        <p>
+           Escolhemos 3 poemas por semana para concorrer a brindes exclusivos, mas para decidirmos o ganhador precisamos da sua ajuda. Avalie o poema que você achou mais criativo!! 
+        </p>
+
+        <br>
+      
+ 
+        <p>POEMA 1 - Frederico Barbosa<br>
+            <span style="text-decoration: underline;">Amor</span> é fogo que arde sem se ver,
+            <br>
+            é ferida que dói, e não se sente;
+            <br>
+            é um contentamento descontente,
+            <br>
+            é dor que desatina sem doer.
+        </p>
+
+        <div class="rating">
+            <input type="radio" id="poema1-star1" name="poema1-rating" value="1">
+            <label for="poema1-star1">&#9733;</label>
+            <input type="radio" id="poema1-star2" name="poema1-rating" value="2">
+            <label for="poema1-star2">&#9733;</label>
+            <input type="radio" id="poema1-star3" name="poema1-rating" value="3">
+            <label for="poema1-star3">&#9733;</label>
+          </div>
+          <p id="classificacao1"></p>
+        
+    
+
+        <br>
+        
+ 
+        <p>POEMA 2 - José de Alencar<br>
+            É um não querer mais que bem querer;
+            <br>
+            é um andar solitário entre a gente;
+            <br>
+            é nunca contentar-se de <span style="text-decoration:underline"> contente;</span>
+            <br>
+            é um cuidar que ganha em se perder. 
+        </p>
+
+        <div class="rating">
+            <input type="radio" id="poema2-star1" name="poema2-rating" value="1">
+            <label for="poema2-star1">&#9733;</label>
+            <input type="radio" id="poema2-star2" name="poema2-rating" value="2">
+            <label for="poema2-star2">&#9733;</label>
+            <input type="radio" id="poema2-star3" name="poema2-rating" value="3">
+            <label for="poema2-star3">&#9733;</label>
+          </div>
+          <p id="classificacao2"></p>
+       
+
+        <br>
+        
+ 
+        <p>POEMA 3 - Silvia Fonseca<br>
+            É querer estar preso por vontade;
+            <br>
+            é servir a quem vence, o vencedor;
+            <br>
+            é ter com quem nos mata,   <span style="text-decoration: underline;">lealdade.</span>
+        </p>
+        <div class="rating">
+            <input type="radio" id="poema3-star1" name="poema3-rating" value="1">
+            <label for="poema3-star1">&#9733;</label>
+            <input type="radio" id="poema3-star2" name="poema3-rating" value="2">
+            <label for="poema3-star2">&#9733;</label>
+            <input type="radio" id="poema3-star3" name="poema3-rating" value="3">
+            <label for="poema3-star3">&#9733;</label>
+          </div>
+          <p id="classificacao3"></p>
+    
+  
+</div>
+</div>
+
+        
+
+</main>
+
+ <footer><p>©Copyright 2050 by nobody. All rights reversed.</p></footer>
+
+</body>
+</html>
